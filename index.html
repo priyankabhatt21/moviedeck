@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Deck</title>
+  <link rel="stylesheet" href="Style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <header>
+    <h1><a href="#">Movie Deck</a></h1>
+  </header>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search by name..." autocomplete="off">
+    <button type="button">Search</button>
+  </div>
+
+  <div class="sorting-options">
+    <button type="button"><b>Sort by date (oldest to latest)</b></button>
+    <button type="button"><b>Sort by rating (least to most)</b></button>
+  </div>
+
+  <div class="tabs">
+    <button type="button" class="active-tab">All</button>
+    <button type="button" class="tab-btn">Favorites</button>
+  </div>
+  <div class="movie-list-pagination">
+    <ul class="movie-list">
+      <li class="movie-card">
+        <img src="images.png" alt="Movie 1">
+        <div class="title-like-container">
+          <i class="fa fa-heart-o like-icon" style="font-size: 30px;"></i>
+          <h4 class="movie-title">movie-title</h4>
+        </div>
+        <div class="description">
+          <p>Vote: vote-count  
+            Rating:vote_average
+          </p>
+        </div>
+      </li>
+      <!-- Add more movie cards here -->
+      <li class="movie-card">
+        <img src="images.png" alt="Movie 1">
+        <div class="title-like-container">
+          <i class="fa fa-heart-o like-icon" style="font-size: 30px;"></i>
+          <h4 class="movie-title">movie-title</h4>
+        </div>
+        <div class="description">
+          <p>Vote: vote-count
+            movie.vote_average
+          </p>
+        </div>
+      </li>
+      <li class="movie-card">
+        <img src="images.png" alt="Movie 1">
+        <div class="title-like-container">
+          <i class="fa fa-heart-o like-icon" style="font-size: 30px;"></i>
+          <h4 class="movie-title">movie-title</h4>
+        </div>
+        <div class="description">
+          <p>Vote: vote-count
+            movie.vote_average
+          </p>
+        </div>
+      </li>
+      <li class="movie-card">
+        <img src="images.png" alt="Movie 1">
+        <div class="title-like-container">
+          <i class="fa fa-heart-o like-icon" style="font-size: 30px;"></i>
+          <h4 class="movie-title">movie-title</h4>
+        </div>
+        <div class="description">
+          <p>Vote: vote-count
+            movie.vote_average
+          </p>
+        </div>
+      </li>
+      <li class="movie-card">
+        <img src="images.png" alt="Movie 1">
+        <div class="title-like-container">
+          <i class="fa fa-heart-o like-icon" style="font-size: 30px;"></i>
+          <h4 class="movie-title">movie-title</h4>
+        </div>
+        <div class="description">
+          <p>Vote: vote-count
+            movie.vote_average
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="second-row">
+    <div class="movie-card centered">
+      <ul class="movie-list">
+      <li class="movie-card">
+        <img src="images.png" alt="Movie 2">
+        <div class="title-like-container">
+          <i class="fa fa-heart-o like-icon" style="font-size: 30px;"></i>
+          <h4 class="movie-title">movie-title</h4>
+        </div>
+        <div class="description">
+          <p>Vote: vote-coun 
+           movie.vote_averaget
+
+          </p>
+        </div>
+      </li>
+      </ul>
+    </div>
+  </div>
+  <div class="pagination">
+    <button type="button" disabled>Previous</button>
+      <button type=" button">Current Page: 1</button>
+    <button type="button">Next</button>
+  </div>
+
+  <footer>
+    <p class="copy">© 2023 Movie Deck</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+}
+
+.search-bar button {
+  padding: 10px 10px 10px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 70px;
+  
+
+}
+
+.sorting-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -20px;
+}
+
+.sorting-options button {
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-top: 0px;
+  padding: 10px 10px 10px 10px;
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  width: 220px;
+  height:30px;
+}
+
+
+.tabs {
+  display: flex;
+  padding: 10px;
+   width: 220px;
+  height:30px;
+  
+}
+
+.tabs div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs .active-tab {
+  background-color: #333;
+  color: #fff;
+  height:30px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.tabs .tab-btn{
+  width: 100px;
+  border-radius: 5px;
+  border:none ;
+}
+
+.movie-list-pagination {
+  padding: 20px;
+  align-items: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 10px;
+}
+.movie-card {
+  list-style: none; 
+  align-items: center;
+  width: 200px;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.movie-list li {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.movie-list li img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.movie-list li .favorite-icon {
+  float: right;
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+footer{
+  background-color: #333;
+  padding: 10px ;
+}
+.copy{
+  text-align: center;
+  color: #fff;
+}
+.like-icon {
+  font-size: 36px;
+  order: 2;
+  justify-content: right;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* margin-left: 12px; Adjust the margin as needed */
+}
+.movie-title {
+  margin-top: -10px;
+  margin-left: 30px;
+  text-align: center; /* Center-align the title */
+ 
+}
+.discription{
+  margin-top: -20px;
+  margin-left: 10px;
+  order: 1;
+}
+.title-like-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination button {
+  margin-bottom: 20px;
+ 
+}
